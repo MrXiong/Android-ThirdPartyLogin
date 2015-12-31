@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.recycler.zx.zxrecyclerview.MainActivity" >
+    <!-- showAsAction 3.0以后使用-->
+    <item android:id="@+id/qq_login"
+        android:title="QQ登录"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+         />
+    <item android:id="@+id/wechat_login"
+        android:title="微信登录"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="200"
+         />
+    <item android:id="@+id/weibo_login"
+        android:title="微博登录"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="300"
+         />
+</menu>
